@@ -5,7 +5,7 @@ public class HelloSelenium {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://selenium.dev");
+        driver.get("https://google.com");
 
         driver.quit();
     }
